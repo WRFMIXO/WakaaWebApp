@@ -57,7 +57,6 @@ ROOT_URLCONF = 'WakaaWebApp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'wakaafront, 'build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,9 +69,6 @@ TEMPLATES = [
     },
 ]
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'wakaafront', 'build', 'static'),
-]
 
 WSGI_APPLICATION = 'WakaaWebApp.wsgi.application'
 
