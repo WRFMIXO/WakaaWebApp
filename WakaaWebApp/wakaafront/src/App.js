@@ -1,17 +1,22 @@
 import './App.css';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import AdminLoginPage from './components/commons/AdminLoginPage';
-import UserLoginPage from './components/commons/UsersLoginPage';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path='/administration/login' element={<AdminLoginPage/>} />
-          <Route path='/entreprises/login' element={<UserLoginPage />} />
-        </Routes>
-      </BrowserRouter>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }

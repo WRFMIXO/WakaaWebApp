@@ -1,0 +1,16 @@
+.mainnav{
+    float: left;
+}
+
+.mainnav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.mainnav li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
