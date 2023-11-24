@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+#footer{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  color: whitesmoke;
+}
+.submit{
+  width: 200px;
+}
+.label-administration{
+  color: dodgerblue;
+  position: relative;
+  bottom: 15px;
+  text-align: right;
+  font-family: 'Segoe UI light';
+  font-size: 20px;
+}
+.label-connexion{
+  color: crimson;
+  bottom: 15px;
+  text-align: right;
+  font-family: 'Segoe UI bold';
+}
+.label-administration-user{
+  color: crimson;
+  position: relative;
+  bottom: 15px;
+  text-align: left;
+  font-family: 'Segoe UI light';
+  font-size: 20px;
+}
+.label-connexion-user{
+  color: dodgerblue;
+  bottom: 15px;
+  text-align: left;
+  font-family: 'Segoe UI bold';
+}
